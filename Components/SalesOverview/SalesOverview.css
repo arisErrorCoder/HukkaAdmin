@@ -1,0 +1,33 @@
+.sales-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  margin-left: 201px;
+  height: 100%;
+}
+
+.sales-today, .sales-chart, .average-metrics {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sales-today h2, .sales-chart h2, .metric h2 {
+  margin-bottom: 10px;
+}
+
+.average-metrics {
+  display: flex;
+  gap: 20px;
+}
+
+.metric {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

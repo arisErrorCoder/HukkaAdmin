@@ -1,0 +1,26 @@
+/* src/components/Header.css */
+.header {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left: 250px;
+  }
+  
+  .date-filter {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .date-filter button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .date-filter .active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  

@@ -1,0 +1,20 @@
+/* src/components/SecondarySidebar.css */
+.secondary-sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 200px;
+  }
+  
+  .secondary-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .secondary-sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,109 @@
+.stock-control {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stock-control-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stock-control-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .stock-control-header .description {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .stock-control-header .description .help {
+    margin-left: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .stock-control-header .description .receive-stock {
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .filter-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .filter-item input,
+  .filter-item select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .filter-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .filter-actions .more-filters,
+  .filter-actions .clear-filters,
+  .filter-actions .search {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .filter-actions .clear-filters {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+  }
+  
+  .additional-filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .stock-control-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .stock-control-table th,
+  .stock-control-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .stock-control-table th {
+    background-color: #f8f8f8;
+  }
+  
